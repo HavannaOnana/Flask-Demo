@@ -1,0 +1,147 @@
+@import "history.css";
+@font-face {
+  font-family: Norwester;
+  src: url(/static/fonts/norwester.otf);
+}
+@font-face {
+  font-family: League;
+  src: url(/static/fonts/LeagueSpartan-Bold.otf);
+}
+@font-face {
+  font-family: Boldmon;
+  src: url(/static/fonts/MontserratAlternates-SemiBold.otf);
+}
+@font-face {
+  font-family: NewFont;
+  src: url(/static/fonts/MontserratAlternates-Regular.otf);
+}
+@font-face {
+  font-family: regular;
+  src: url(/static/fonts/Montserrat-Regular.otf);
+}
+body {
+  background-image: url(/static/images/win_background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.History {
+  font-family: NewFont;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+}
+
+.trophy {
+  max-width: 450px;
+  display: block;
+  border-radius: 10px;
+  border: 3px solid rgb(12, 9, 9);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main_text {
+  font-family: regular;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+}
+
+.background {
+  margin: 100px auto;
+  width: 75%;
+  position: relative;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: auto;
+}
+
+.background .background_h2 {
+  font-family: NewFont;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+}
+
+.background .background_image {
+  max-width: 450px;
+  display: block;
+  border-radius: 10px;
+  border: 3px solid rgb(12, 9, 9);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.background .background_text {
+  font-family: regular;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+}
+
+.current {
+  margin: 100px auto;
+  width: 75%;
+  position: relative;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: auto;
+}
+
+.current .current_h2 {
+  font-family: NewFont;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+}
+
+.current .current_image {
+  max-width: 450px;
+  display: block;
+  border-radius: 10px;
+  border: 3px solid rgb(12, 9, 9);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.current .current_text {
+  font-family: regular;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+}
+
+.return {
+  position: absolute;
+  bottom: 671px;
+  left: 89%;
+  font-family: Boldmon;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 4px;
+  margin: 4px;
+  background-color: transparent;
+}
+
+.link {
+  font-family: NewFont;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+  align-items: center;
+}/*# sourceMappingURL=history.css.map */

@@ -1,0 +1,248 @@
+@import 'winners.css';
+@font-face {
+  font-family: Norwester;
+  src: url(/static/fonts/norwester.otf);
+}
+@font-face {
+  font-family: League;
+  src: url(/static/fonts/LeagueSpartan-Bold.otf);
+}
+@font-face {
+  font-family: Boldmon;
+  src: url(/static/fonts/MontserratAlternates-SemiBold.otf);
+}
+@font-face {
+  font-family: NewFont;
+  src: url(/static/fonts/MontserratAlternates-Regular.otf);
+}
+@font-face {
+  font-family: regular;
+  src: url(/static/fonts/Montserrat-Regular.otf);
+}
+body {
+  background-image: url(/static/images/win_background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.main_text {
+  text-align: center;
+  font-family: regular;
+  padding: 5px;
+  letter-spacing: 1px;
+  text-shadow: 2px;
+}
+
+.text {
+  font-family: League;
+  text-align: center;
+  text-shadow: 3px;
+  color: rgb(24, 4, 44);
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+.brazil_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.brazil_team .brazil {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.brazil_team .h2 {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.brazil_team .brazil_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.germany_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.germany_team .germany {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.germany_team .h2_germany {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.germany_team .germany_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.italy_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.italy_team .italy {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.italy_team .h2_italy {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.italy_team .italy_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.argentina_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.argentina_team .argentina {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.argentina_team .h2_argentina {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.argentina_team .argentina_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.france_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.france_team .france {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.france_team .h2_france {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.france_team .france_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.urugauy_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.urugauy_team .urugauy {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.urugauy_team .h2_urugauy {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.urugauy_team .urugauy_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.england_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.england_team .england {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.england_team .h2_england {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.england_team .england_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.spain_team {
+  margin: 100px;
+  width: 75%;
+}
+
+.spain_team .spain {
+  max-width: 300px;
+  float: left;
+  border-radius: 10px;
+  border: 3px solid white;
+  margin-right: 20px;
+}
+
+.spain_team .h2_spain {
+  font-family: regular;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.spain_team .spain_text {
+  font-family: regular;
+  letter-spacing: 1px;
+}
+
+.return {
+  position: absolute;
+  bottom: 671px;
+  left: 89%;
+  font-family: Boldmon;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 4px;
+  margin: 4px;
+  background-color: transparent;
+}/*# sourceMappingURL=winners.css.map */

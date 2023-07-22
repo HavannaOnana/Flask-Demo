@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Norwester;
+    src: url(/static/fonts/norwester.otf);
+  }
+  @font-face {
+    font-family: League;
+    src: url(/static/fonts/LeagueSpartan-Bold.otf);
+  }
+  @font-face {
+    font-family: Boldmon;
+    src: url(/static/fonts/MontserratAlternates-SemiBold.otf);
+  }
+  @font-face {
+    font-family: NewFont;
+    src: url(/static/fonts/MontserratAlternates-Regular.otf);
+  }
+  @font-face {
+    font-family: regular;
+    src: url(/static/fonts/Montserrat-Regular.otf);
+  }
+  body {
+    background-image: url(/static/images/win_background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .return{
+    position:absolute;
+    bottom: 671px;
+    left: 89%;
+    font-family:Boldmon;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 4px;
+    margin: 4px;
+    background-color: transparent;
+  }
+
+.title{
+    text-align: center;   
+    font-family: regular; 
+    padding: 5px;
+    letter-spacing:1px;
+    text-shadow: 2px;
+}
+
+.quiz_photo{
+    max-width: 350px;
+    display: block;
+    border-radius: 10px;
+    border: 3px solid rgb(12, 9, 9);
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.main_text{
+    font-family: regular;
+    text-align: center;
+    text-shadow: 3px;
+    color: rgb(24, 4, 44);
+    letter-spacing: 1px;
+}
+
+@mixin div_settings{
+    margin: 100px auto;
+    width: 75%;
+    position:relative;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+
+    font-family: regular;
+    text-align: center;
+    text-shadow: 3px;
+    color: rgb(24, 4, 44);
+    letter-spacing: 1px;
+
+}
+
+@mixin div_image{
+    max-width: 450px;
+    display: block;
+    border-radius: 10px;
+    border: 3px solid rgb(12, 9, 9);
+    margin-right:auto;
+    margin-left: auto;
+}
+
+// this mixin will apply to every photo in the questions that I
+//  classed as images
+
+.images{
+    @include div_image
+}
+
+.q1{
+    @include div_settings
+}
+
+.q2{
+    @include div_settings
+}
+
+.q3{
+    @include div_settings
+}
+
+.q4{
+    @include div_settings
+}
+
+.q5{
+    @include div_settings
+}
+
+.q6{
+    @include div_settings
+}
+
+.q7{
+    @include div_settings
+}
+
+.q8{
+    @include div_settings
+}
+
+.q9{
+    @include div_settings
+}
+
+.q10{
+    @include div_settings
+}
+
+.next{
+    font-family:Boldmon;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 4px;
+    margin: 4px;
+    background-color: transparent;
+}
+
+.Good_score{
+    text-align: center;   
+    font-family: regular; 
+    padding: 5px;
+    letter-spacing:1px;
+    text-shadow: 2px;
+}
+
+.bad_score{
+    text-align: center;   
+    font-family: regular; 
+    padding: 5px;
+    letter-spacing:1px;
+    text-shadow: 2px;
+}
+
+.review{
+    max-width: 250px;
+    display: block;
+    border-radius: 10px;
+    border: 3px solid rgb(12, 9, 9);
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.score{
+    text-align: center;   
+    font-family: regular; 
+    padding: 5px;
+    letter-spacing:1px;
+    text-shadow: 2px;
+
+}

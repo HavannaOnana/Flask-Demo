@@ -1,0 +1,257 @@
+@import 'winners.css';
+
+@font-face {
+    font-family: Norwester;
+    src: url(/static/fonts/norwester.otf);
+}
+
+@font-face {
+    font-family: League;
+    src: url(/static/fonts/LeagueSpartan-Bold.otf);
+}
+
+@font-face {
+    font-family: Boldmon;
+    src: url(/static/fonts/MontserratAlternates-SemiBold.otf);
+  }
+
+
+  @font-face {
+    font-family:NewFont;
+    src: url(/static/fonts/MontserratAlternates-Regular.otf);
+  }
+
+  @font-face {
+    font-family:regular;
+    src: url(/static/fonts/Montserrat-Regular.otf);
+  }
+
+
+
+
+body{
+    background-image: url(/static/images/win_background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+
+
+
+}
+
+
+
+
+.main_text{
+    text-align: center;   
+    font-family: regular; 
+    padding: 5px;
+    letter-spacing:1px;
+    text-shadow: 2px;
+}
+
+.text{
+    font-family: League;
+    text-align: center;
+    text-shadow: 3px;
+    color: rgb(24, 4, 44);
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+
+.brazil_team{
+    margin: 100px;
+    width: 75%;
+}
+
+
+.brazil_team .brazil{
+   max-width: 300px;
+   float: left;
+   border-radius: 10px;
+   border: 3px solid white;
+   margin-right:20px;
+}
+
+
+.brazil_team .h2{
+    font-family: regular;
+    font-size: 30px;
+    padding: 5px;
+}    
+
+.brazil_team .brazil_text{
+    font-family: regular;
+    letter-spacing:1px;
+}
+
+//mixins
+
+@mixin div_class{
+    margin: 100px;
+    width: 75%;
+
+}
+
+@mixin div_img{
+    max-width: 300px;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin-right:20px;
+}
+
+@mixin div_h2{
+    font-family: regular;
+    font-size: 30px;
+    padding: 5px;
+}
+
+@mixin div_text{
+    font-family: regular;
+    letter-spacing:1px;
+}
+
+
+// germany team
+
+.germany_team{
+    @include div_class;
+
+}
+
+.germany_team .germany{
+    @include div_img;
+}
+
+.germany_team .h2_germany{
+    @include div_h2;
+
+}
+
+.germany_team .germany_text{
+    @include div_text;
+}
+
+// italy 
+
+.italy_team{
+    @include div_class;
+}
+
+.italy_team .italy{
+    @include div_img;
+}
+
+.italy_team .h2_italy{
+    @include div_h2;
+}
+
+.italy_team .italy_text{
+    @include div_text;
+}
+
+//argentina
+
+.argentina_team{
+    @include div_class;
+}
+
+.argentina_team .argentina{
+    @include div_img;
+}
+
+.argentina_team .h2_argentina{
+    @include div_h2;
+}
+
+.argentina_team .argentina_text{
+    @include div_text;
+}
+
+
+//france
+
+.france_team{
+    @include div_class;
+}
+
+.france_team .france{
+    @include div_img;
+}
+
+.france_team .h2_france{
+    @include div_h2;
+}
+
+.france_team .france_text{
+    @include div_text;
+}
+
+//urugauy 
+
+.urugauy_team{
+    @include div_class;
+}
+
+.urugauy_team .urugauy{
+    @include div_img;
+}
+
+.urugauy_team .h2_urugauy{
+    @include div_h2;
+}
+
+.urugauy_team .urugauy_text{
+    @include div_text;
+}
+
+//england
+
+.england_team{
+    @include div_class;
+}
+
+.england_team .england{
+    @include div_img;
+}
+
+.england_team .h2_england{
+    @include div_h2;
+}
+
+.england_team .england_text{
+    @include div_text;
+}
+
+//spain
+
+.spain_team{
+    @include div_class;
+}
+
+.spain_team .spain{
+    @include div_img;
+}
+
+.spain_team .h2_spain{
+    @include div_h2;
+}
+
+.spain_team .spain_text{
+    @include div_text;
+}
+
+.return{
+    position:absolute;
+    bottom: 671px;
+    left: 89%;
+    font-family:Boldmon;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 4px;
+    margin: 4px;
+    background-color: transparent;
+  }

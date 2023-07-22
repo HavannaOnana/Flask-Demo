@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Quiz</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <button class="return" type="button" onclick="location.href='/'">RETURN</button>
+    <h1 class="title">Quiz for World Cup </h1>
+    <img class="quiz_photo" src="static/images/world cup.jpg"  alt="">
+    <p class="main_text">This is the quiz which goes over the Fifa 2022 World Cup which
+        occurred in November 2022. People say its the best world cup. In my opinion it 
+        isn't .Let's test to see how well you know abou the World Cup
+    </p>
+ <form action="/submit" method="POST">
+    <div class="q1">
+        <h2>Question 1</h2>
+      <h3>Argentina Vs Saudi Arabia</h3>
+      <p>1) What was the score Between Argentina Vs Saudi</p>
+      <img src="static/images/saudi.jpg" width="300" class="images" alt="">
+      <p></p>
+      <input type="radio" id="q1_option1" name="q1_answer" value="2-1">
+      <label for="option1">2-1</label><br>
+      <input type="radio" id="q1_option2" name="q1_answer" value="2-2">
+      <label for ="option2">2-2</label><br>
+      <input type="radio" id="q1_option3" name="q1_answer" value="1-2">
+      <label for="option3">1-2</label><br>
+      <p></p>
+    </div>
+
+    <div class="q2">
+        <h2>Question 2</h2>
+       <h3>Golden Boot</h3>
+       <p> 2) Who won the golden boot in the World Cup</p>
+       <img src="static/images/mbappe.jpg" width="300" class="images" alt="">
+       <p></p>
+       <input type="radio" id="q2_option1" name="q2_answer" value="Mbappe">
+       <label for="option1">Mbappe</label><br>
+       <input type="radio" id="q2_option2" name="q2_answer" value="Messi" >
+       <label for="option2">Messi</label><br>
+       <p></p>
+    </div>
+
+    <div class="q3">
+        <h2>Question 3</h2>
+        <h3>Qatar Performance</h3>
+        <p>3) Did Qatar peform well in the World Cup?</p>
+       <img src="static/images/qatar.jpg" width="300" class="images" alt="">
+       <p></p>
+       <input type="radio" id="yes" name="q3_answer" value="Yes">
+      <label for="yes">Yes</label><br>
+      <input type="radio" id="no" name="q3_answer" value="No">
+      <label for="no">No</label><br>
+      <p></p>
+    </div>
+
+    <div class="q4">
+        <h2>Question 4</h2>
+        <h3>Africa Best Performers</h3>
+       <p>4) Which African country performed the best in the World Cup ?</p>
+       <img src="/static/images/africa.jpg" width="300" class="images" alt="">
+       <p></p>
+       <input type="radio" id="q4_option1" name="q4_answer" value="morocco">
+      <label for="option1">Morocco</label><br>
+      <input type="radio" id="q4_option2" name="q4_answer" value="senegal">
+     <label for="option2">Senegal</label><br>
+     <input type="radio" id="q4_option3" name="q4_answer" value="ghana">
+      <label for="option3">Ghana</label><br>
+      <input type="radio" id="q4_option4" name="q4_answer" value="tunusia">
+      <label for="option4">Tunusia</label><br>
+      <input type="radio" id="q4_option5" name="q4_answer" value="cameroon">
+      <label for="option5">Cameroon</label><br>
+    </div>
+
+    <div class="q5">
+        <h2>Question 5</h2>
+       <h3>Ronaldo Vs Messi World Cup</h3>
+      <p>5) Did Ronaldo play better than Messi</p>
+      <img src="static/images/messi.jpg" width="300" class="images" alt="">
+      <p></p>
+      <input type="radio" id="yes" name="q5_answer" value="yes">
+      <label for="yes">Yes</label><br>
+      <input type="radio" id="no" name="q5_answer" value="No">
+      <label for="No">No</label><br>
+    </div>
+
+    <div class="q6">
+        <h2>Question 6 </h2>
+        <h3> Carrying France </h3>
+        <p>Who carried France in the world cup?</p>
+        <img src="static/images/france.jpg" width="300" class="images" alt="">
+        <p></p>
+        <input type="radio" id="q6_option1" name="q6_answer" value="giroud">
+        <label for="option1">Giroud</label><br>
+        <input type="radio" id="q6_option2" name="q6_answer" value="mbappe">
+        <label for="option2">Mbappe</label><br>
+        <input type="radio" id="q6_option3" name="q6_answer" value="kolo mauni">
+        <label for="option3">Kolo Muani</label><br>
+    </div>
+
+
+    <div class="q7">
+        <h2>Question 7</h2>
+    <h3>Portugal Vs Ghana</h3>
+    <p> What was the score between Portugal Vs Ghana</p>
+    <img src="static/images/ghana.jpg" width="300" class="images" alt="">
+    <p></p>
+    <input type="radio" id="q7_option1" name="q7_answer" value="2-2">
+    <label for="option1">2-2</label><br>
+    <input type="radio" id="q7_option2" name="q7_answer" value="3-2">
+    <label for="option2">3-2</label><br>
+    </div>
+
+    <div class="q8">
+        <h2>Question 8</h2>
+    <h3>Australia vs Argentina</h3>
+    <p>What was the score between Australia Vs Argentina</p>
+    <img src="static/images/australia.jpg" width="300" class="images" alt="">
+    <p></p>
+    <input type="radio" id="q8_option1" name="q8_answer" value="1-2">
+    <label for="option1">1-2</label><br>
+    <input type="radio" id="q8_option2" name="q8_answer" value="2-2">
+    <label for="option2">2-2</label><br>
+    <input type="radio" id="q8_option3" name="q8_answer" value="2-1">
+    <label for="option3">2-1</label><br>
+    </div>
+
+    <div class="q9">
+        <h2>Question 9</h2>
+    <h3>Dark Horses</h3>
+    <p>Who were the Dark Horses in the world Cup</p>
+    <img src="static/images/japan.jpg" width="300" class="images" alt="">
+    <p></p>
+    <input type="radio" id="q9_option1" name="q9_answer" value="japan">
+    <label for="option1">Japan</label><br>
+    <input type="radio" id="q9_option2" name="q9_answer" value="croatia">
+    <label for="option3">Croatia</label><br>
+    <input type="radio" id="q9_option3" name="q9_answer" value="canada">
+    <label for="oprion3">Canada</label><br>
+    </div>
+
+    <div class="q10">
+        <h2>Question 10</h2>
+    <h3>Senegal Performance</h3>
+    <p> How far did Senegal Make it in the World Cup</p>
+    <img src="static/images/senegal.jpg" width="300" class="images" alt="">
+    <p></p>
+    <input type="radio" id="q10_option1" name="q10_answer" value="QauterFinals">
+    <label for="option1">Qauter Finals</label><br>
+    <input type="radio" id="q10_option2" name="q10_answer" value="Roundof16">
+    <label for="option2">Round of 16</label><br>
+    <button class="next" type="submit">Submit</button>
+    </div>
+
+    
+ </form>
+
+    
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
